@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберете необходимый расчет"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/FrostHeavingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Проверка винтовой сваи на действия морозного пучения (вне отапливаемых помещений)"
+      />
+
+    <Button
+        android:id="@+id/powerPileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Проверка винтовой сваи на вдавливающие/выдергивающие нагрузки"
+       />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pile"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="L - общая длина стальной сваи; D - диаметр лопастей (спиралей); d - диаметр ствола; S - толщина стенки ствола; b - толщина металла лопастей (спиралей); Н - высота конуса; h - шаг витка; 1 - монтажное отверстие; 2 - привариваемый оголовок (условно не показан)"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp"/>
+
+    <Button
+        android:id="@+id/usedLiteratureButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Используемая литература"
+        />
+
+</LinearLayout>
+</ScrollView>
